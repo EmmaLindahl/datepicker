@@ -1,0 +1,8 @@
+/* src/index.css or src/App.css */
+@import "tailwindcss";
+
+@layer utilities {
+  .clip-fancy {
+    clip-path: polygon(0 7%, 91% 7%, 93% 1%, 95% 7%, 100% 7%, 100% 100%, 0 100%);
+  }
+}
