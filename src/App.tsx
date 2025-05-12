@@ -1,7 +1,8 @@
 import { useState } from "react";
 // import "./App.css";
-import { DatePicker } from "./DatePicker";
+//import { DatePicker } from "./DatePicker";
 import { DatePickerValue } from "./DatePicker/types";
+import { DatePicker } from "../node_modules/datepickernpm/index";
 
 function App() {
   const [calendarValue, setCalendarValue] = useState<Date>();
