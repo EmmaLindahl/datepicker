@@ -40,6 +40,10 @@ export const DatePicker = ({
   }, [open]);
 
   useEffect(() => {
+      if (!window.getComputedStyle(document.documentElement).getPropertyValue('--tw-bg-opacity')) {
+    console.warn("Tailwind CSS is not detected. Please ensure Tailwind is set up in your project.");
+  }
+
     const handleClickOutside = (event: MouseEvent) => {
       if (
         wrapperRef.current &&
