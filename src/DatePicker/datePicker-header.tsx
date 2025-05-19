@@ -23,11 +23,14 @@ export const DatePickerHeader = (props: DatePickerHeaderProps) => {
         }`}
         onClick={props.showMonthMenu ? undefined : props.onClickPrev}
       >
-        <ChevronLeftIcon
-          className={`h-5 w-5 ${
+        <svg width="48" height="49" viewBox="0 0 48 49" fill="none" xmlns="http://www.w3.org/2000/svg"
+                  className={`h-5 w-5 ${
             props.showMonthMenu ? "fill-gray-300" : "fill-black"
           } `}
-        />
+          >
+    <path
+        d="M26 12.0513L13.8594 24.1919L26 36.3325L29 33.3325L19.8594 24.1919L29 15.0513L26 12.0513Z" />
+</svg>
       </div>
       <div className="flex gap-1 mb-1">
         <div
@@ -60,11 +63,13 @@ export const DatePickerHeader = (props: DatePickerHeaderProps) => {
         }`}
         onClick={props.showMonthMenu ? undefined : props.onClickNext}
       >
-        <ChevronRightIcon
-          className={`h-5 w-5 ${
+        <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg"
+                  className={`h-5 w-5 ${
             props.showMonthMenu ? "fill-gray-300" : "fill-black"
           } `}
-        />
+>
+    <path d="M20 11.8594L17 14.8594L26.1406 24L17 33.1406L20 36.1406L32.1406 24L20 11.8594Z" />
+</svg>
       </div>
     </div>
   );
