@@ -1,6 +1,6 @@
 {
   "name": "datepicker-2201",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Emmas datepicker",
   "main": "index.tsx",
   "scripts": {
