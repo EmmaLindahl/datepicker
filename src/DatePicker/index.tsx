@@ -140,7 +140,6 @@ export const DatePicker = ({
           )}
         </div>
       </div>
-      <div className="bg-pink-600 w-screen">Testing Something</div>
     </>
   );
 };

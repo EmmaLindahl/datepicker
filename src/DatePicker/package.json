@@ -1,6 +1,6 @@
 {
   "name": "datepicker-2201",
-  "version": "0.1.2",
+  "version": "1.0.1",
   "description": "Emmas datepicker",
   "main": "index.tsx",
   "scripts": {
@@ -9,7 +9,6 @@
   "author": "Emma Lindahl",
   "license": "MIT",
   "dependencies": {
-    "@tailwindcss/cli": "^4.1.7",
     "tailwindcss": "^4.1.7"
   }
 }
